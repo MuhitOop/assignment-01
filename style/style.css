@@ -33,6 +33,27 @@ body {
   text-align: left;
 }
 
+.section-description {
+  color: #0e0e0eb3;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.box-title {
+  color: #0e0e0ecc;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.box-description {
+  color: #0e0e0eb3;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
 /* shared style end */
 
 header,
@@ -124,19 +145,60 @@ nav {
   padding: 24px;
 }
 
-.pillar-title {
-  color: #0e0e0ecc;
-  font-size: 20px;
-  font-weight: 700;
-  text-align: left;
-}
-
-.pillar-description{
-  color: #0E0E0EB3;
-font-family: Fira Sans;
-font-size: 16px;
-font-weight: 400;
-text-align: left;
-}
-
 /* pillars section end*/
+
+/* vision section start */
+.visions {
+  margin-top: 80px;
+}
+
+.visions-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.vision-box {
+  width: 410px;
+  height: 325px;
+  padding: 32px;
+  background-color: #c6e4d6;
+  border-radius: 16px;
+}
+
+.vision-btn-1 {
+  padding: 11px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #5490f5;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.vision-btn-2{
+   padding: 11px 20px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 8px;
+  background-color: #09A15C;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.vision-btn-3{
+   padding: 11px 20px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 8px;
+  background-color: #FFC239;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+/* vision section end */
