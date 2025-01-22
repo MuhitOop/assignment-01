@@ -55,7 +55,7 @@ body {
   text-align: left;
 }
 
-.pointer{
+.pointer {
   cursor: pointer;
 }
 /* shared style end */
@@ -133,7 +133,7 @@ nav {
 
 /* pilllars section start */
 .pillars {
-  margin-top:80px;
+  margin-top: 80px;
 }
 
 .pillars-container {
@@ -155,6 +155,7 @@ nav {
 /* vision section start */
 .visions {
   margin-top: 80px;
+  width: 100%;
 }
 
 .visions-container {
@@ -214,18 +215,17 @@ nav {
 /* recent news section start */
 .newses {
   margin-top: 80px;
-
 }
 
-.news-container{
+.news-container {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  gap:24px ;
+  gap: 24px;
 }
 .news {
-  width: 100%;
   padding: 48px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 24px;
   display: flex;
   gap: 32px;
@@ -263,12 +263,89 @@ nav {
 }
 /* recent news section end  */
 
-
 /* Donate section start */
-.donate{
+.donate {
   width: 90%;
   margin: 0 auto;
-  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+.donate-title {
+  text-align: center;
+  color: #0e0e0e;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.donate-description {
+  color: #0e0e0eb3;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.money-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.money-container .amount {
+  width: 240px;
+  height: 125px;
+  background-color: #ffffff;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.money-container #selected {
+  background-color: #c6e4d6;
+}
+
+.money-container #selected:hover {
+  background-color: #96cab2;
+}
+
+.money-container .amount:hover {
+  background-color: #c6e4d6;
+}
+
+.donate textarea {
+  width: 1030px;
+  height: 65px;
+  margin: 32px auto;
+  outline: none;
+  border: none;
+}
+
+.donate textarea::placeholder {
+  text-align: center;
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 400;
+}
 /* Donate section end */
+
+/* subscribe section start */
+.subscribe{
+  max-width: 100%;
+  height: 395px;
+  margin-top: 80px;
+  padding: 80px 100px;
+  background-color: #C6E4D6;
+  border-radius: 24px;
+}
+
+
+
+/* subscriobe section end */
