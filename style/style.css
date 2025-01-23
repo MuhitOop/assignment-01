@@ -337,15 +337,70 @@ nav {
 /* Donate section end */
 
 /* subscribe section start */
-.subscribe{
+.subscribe {
   max-width: 100%;
   height: 395px;
   margin-top: 80px;
   padding: 80px 100px;
-  background-color: #C6E4D6;
+  background-color: #c6e4d6;
   border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+.sub-field {
+  display: flex;
+  margin-top: 24px;
+}
 
+.subscribe .sub-title {
+  color: #0e0e0e;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
 
+.subscribe .sub-description {
+  color: #0e0e0eb3;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.sub-field input {
+  width: 600px;
+  min-height: 35px;
+  padding: 18px 40px;
+  border: none;
+  outline: none;
+  border-radius: 8px 0px 0px 8px;
+  color: #0e0e0e4d;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.sub-field button {
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+  background-color: #006a50;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  padding: 17px 34px;
+}
+
+.subscribe .sub-last {
+  color: #0E0E0EB3;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 25px;
+}
 /* subscriobe section end */
