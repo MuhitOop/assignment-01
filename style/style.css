@@ -61,7 +61,8 @@ body {
 /* shared style end */
 
 header,
-main,.footer-container {
+main,
+.footer-container {
   max-width: 1280px;
   margin: 0 auto;
   /* border: 2px solid gray; */
@@ -88,6 +89,11 @@ nav {
   font-size: 18px;
   font-weight: 600;
   color: #006a50;
+  cursor: pointer;
+}
+
+.nav-btn button:hover {
+  background-color: #c6e4d6;
 }
 
 /* nav style end */
@@ -211,6 +217,51 @@ nav {
   cursor: pointer;
 }
 /* vision section end */
+
+/* quote section start */
+.quote {
+  max-width: 100%;
+  border: 1px solid #0e0e0e26;
+  border-radius: 16px;
+  margin-top: 32px;
+  max-height: 256px;
+  background-color: #ffffff;
+  padding: 48px 24px;
+}
+
+.quote-container{
+  background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+  padding: 8px;
+
+}
+
+.quote-container .quote-description {
+  color: #0e0e0ecc;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.quote .quote-name {
+  color: #0e0e0ecc;
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.quote .quote-info {
+  color: #0E0E0E99;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* quote section end */
 
 /* recent news section start */
 .newses {
@@ -397,7 +448,7 @@ nav {
 }
 
 .subscribe .sub-last {
-  color: #0E0E0EB3;
+  color: #0e0e0eb3;
   font-size: 16px;
   font-weight: 400;
   text-align: center;
@@ -406,32 +457,29 @@ nav {
 /* subscriobe section end */
 
 /* Footer start */
-footer{
+footer {
   margin: 80px 0;
   padding: 50px 160px;
   background-color: #ffffff;
-  
 }
 
-.footer-container{
+.footer-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
-.footer-container .vertical-line{
+.footer-container .vertical-line {
   width: 1122px;
-  border-bottom: 1px solid #0E0E0E1A;
+  border-bottom: 1px solid #0e0e0e1a;
   margin: 32px 0;
 }
 
-.footer-container .social-icons{
+.footer-container .social-icons {
   display: flex;
   gap: 20px;
   cursor: pointer;
 }
-
 
 /* Footer end */
